@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+header p {
+    color: hsl(229, 6%, 66%);
+}
+
+main p {
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+
+main h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.supervisor {
+    background-color: white;
+    /* hsl(180, 62%, 55%) */
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+
+.teamBuilder {
+    background-color: white;
+    /* hsl(0, 78%, 62%) */
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.karma {
+    background-color: white;
+    /* hsl(34, 97%, 64%) */
+    grid-column: 2;
+    grid-row: 3 / 5;
+}
+
+.calculator {
+    background-color: white;
+    /* hsl(212, 86%, 64%) */
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
