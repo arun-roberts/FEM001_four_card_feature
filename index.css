@@ -39,8 +39,9 @@ body {
 
     .cardStyles {
         background-color: white;
-        border-radius: .5em;
+        border-radius: 0 0 .5em .5em;
         padding: 1.3em 1.7em;
+        height: 80%;
         box-shadow: 0 10px 10px 2px hsla(234, 12%, 34%, 0.05), 0 8px 10px 2px hsla(212, 86%, 64%, 0.1);
     }
 
@@ -64,18 +65,22 @@ body {
 
             #supervisor {
                 border-top: 4px solid hsl(180, 62%, 55%);
+                border-radius: .5em;
             }
 
             #teamBuilder {
                 border-top: 4px solid hsl(0, 78%, 62%);
+                border-radius: .5em;
             }
 
             #karma {
                 border-top: 4px solid hsl(34, 97%, 64%);
+                border-radius: .5em;
             }
 
             #calculator {
                 border-top: 4px solid hsl(212, 86%, 64%);
+                border-radius: .5em;
             }
 
 @media (min-width: 700px) {
